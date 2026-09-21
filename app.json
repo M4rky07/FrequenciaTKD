@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TaekwondoApp",
-    "slug": "TaekwondoApp",
+    "slug": "frequenciatkd",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.m4rkysteam.frequenciatkd"
     },
     "web": {
       "output": "static",
@@ -32,11 +33,19 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "expo-sharing"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "50a428a8-6e8c-4869-b8f7-2f098ca673a2"
+      }
+    },
+    "owner": "m4rkys-team"
   }
 }
