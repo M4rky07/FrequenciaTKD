@@ -17,6 +17,3 @@
 - Expo Router
 - AsyncStorage
 - JavaScript
-
-## Como executar
-...
